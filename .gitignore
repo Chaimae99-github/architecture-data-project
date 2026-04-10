@@ -44,3 +44,7 @@ Thumbs.db
 # --- DOCKER ---
 *.pid
 docker-data/
+
+# Ignorer les gros fichiers problématiques
+data/raw/.cache/
+data/intermediate/streets_base.geojson
