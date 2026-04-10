@@ -12,6 +12,12 @@ etl/gold/
 etl/__pycache__/
 etl/utils/__pycache__/
 
+# data
+data/raw/
+data/intermediate/
+data/gold/
+data/silver/
+
 # --- NODE / API ---
 api/node_modules/
 api/.env
