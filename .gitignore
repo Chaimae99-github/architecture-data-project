@@ -12,6 +12,8 @@ data/intermediate/*.geojson
 data/intermediate/*.json
 !data/*/
 !data/**/.gitkeep
+data/**/*.json
+data/**/*.geojson
 
 
 *.parquet
