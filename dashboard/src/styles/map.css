@@ -1,0 +1,33 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Contrôles MapLibre */
+.maplibregl-ctrl-group {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.maplibregl-ctrl-group button {
+  width: 32px;
+  height: 32px;
+}
+
+.maplibregl-ctrl-scale {
+  background: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  border: 1px solid #e5e7eb;
+}
+
+/* Popup personnalisé */
+.maplibregl-popup-content {
+  padding: 0 !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
