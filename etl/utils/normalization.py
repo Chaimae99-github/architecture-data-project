@@ -32,3 +32,11 @@ def normalize_arrondissement(value):
         return int(value[-2:]) if len(value) >= 2 else int(value)
     except:
         return None
+
+
+
+ 
+# Transformer ton score en 0 → 100
+def min_max_scaling(series):
+    return (series - series.min()) / (series.max() - series.min()) * 100
+ 

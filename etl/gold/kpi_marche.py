@@ -3,7 +3,6 @@ from pathlib import Path
 import sys
 # Ajoute la racine du projet au path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-
 from etl.utils.normalization import min_max_scaling
 
 
